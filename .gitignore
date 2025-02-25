@@ -72,3 +72,15 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Content 폴더 내부에서 특정 디렉토리만 제외하고 모든 항목 무시
+Content/*
+!Content/Blueprints/
+!Content/Blueprints/**
+!Content/Materials/
+!Content/Materials/**
+!Content/ThirdPerson/
+!Content/ThirdPerson/**
+!Content/UI/
+!Content/UI/**
+
